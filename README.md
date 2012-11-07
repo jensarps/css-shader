@@ -10,7 +10,7 @@ In addition, it provides an animate() method, wich executes the shaders in a loo
 
 #Demo
 
-For a demo, visit the CSS-Shader Playground.
+For a demo, visit the [CSS-Shader Playground](http://jensarps.github.com/css-shader/playground/).
 
 #Usage
 
