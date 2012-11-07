@@ -2,11 +2,11 @@
 
 CSS-Shader is a wrapper that allows to easily set CSS shaders via JavaScript.
 
-It allows you to set and modify shader properties convieniently, without having to forge that complicated CSS String yourself.
+It allows you to set and modify shader properties conveniently, without having to forge that complicated CSS String yourself.
 
 This, it enables to easily build tools like the CSS-Shader Playground.
 
-In addition, it provides an animate() method, wich executes the shaders in a loop using requestAnimationFrame.
+In addition, it provides an animate() method, which executes the shaders in a loop using requestAnimationFrame.
 
 #Demo
 
