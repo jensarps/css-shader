@@ -2,15 +2,15 @@
 
 CSS-Shader is a wrapper that allows to easily set CSS shaders via JavaScript.
 
-It allows you to set and modify shader properties convieniently, without having to forge that complicated CSS String yourself.
+It allows you to set and modify shader properties conveniently, without having to forge that complicated CSS String yourself.
 
 This, it enables to easily build tools like the CSS-Shader Playground.
 
-In addition, it provides an animate() method, wich executes the shaders in a loop using requestAnimationFrame.
+In addition, it provides an animate() method, which executes the shaders in a loop using requestAnimationFrame.
 
 #Demo
 
-For a demo, visit the CSS-Shader Playground.
+For a demo, visit the [CSS-Shader Playground](http://jensarps.github.com/css-shader/playground/).
 
 #Usage
 
@@ -100,3 +100,11 @@ Resumes the animation.
 #Browser Support
 
 Currently, only Chrome 25+ supports CSS Shaders.
+
+#Dependecies
+
+None. Well, an AMD loader should be available.
+
+#License
+
+MIT. For details, see the `LICENSE` file in the repository.
