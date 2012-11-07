@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS-Shader Playground</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script type="text/javascript" src="../css-shader.js"></script>
+  <script type="text/javascript" src="playground.js"></script>
+  <style id="playgroundStyle">
+    #playground {
+      background: white;
+    }
+  </style>
+</head>
+<body>
+<div id="wrapper">
+  <div id="leftCol">
+    <div>
+      <h1>CSS-Shader Playground</h1>
+
+      <div class="box">
+        <p>
+          CSS-Shader is a wrapper that allows you to easily set CSS shaders via
+          Javascript.
+          For more info, scroll down to the "Info" section.
+        </p>
+
+        <p>
+          NOTE: In addition to your custom shader args, CSS-Shader passes a
+          float called "time" which contains the elapsed time in ms.
+        </p>
+
+        <p>
+          Load Preset:
+          <select id="load">
+            <option value="colorChange" selected>Color Foo</option>
+            <option value="noop">No-Op</option>
+            <option value="sphere">Sphere (shader by AlteredQualia)</option>
+          </select>
+        </p>
+        <p id="playpause">
+          Stop/Continue Running:
+          <button id="play">Run</button>
+          <button id="pause">Pause</button>
+        </p>
+      </div>
+    </div>
+    <div>
+      <h2>Setup</h2>
+
+      <div class="box">
+        <label>Blend Mode</label>
+        <input type="text" id="blendMode">
+        <br>
+        <label>Alpha Compositing</label>
+        <input type="text" id="alphaCompositing">
+        <br>
+        <label>Vertex Mesh</label>
+        <input type="text" id="vertexMesh">
+      </div>
+    </div>
+    <div>
+      <h2>Shader Args</h2>
+
+      <div class="box centered" id="shaderArgs">
+        <div>
+          <input type="text" class="key" id="shaderArgs-0-key" placeholder="key">
+          <input type="text" class="value" id="shaderArgs-0-value" placeholder="value">
+        </div>
+        <div>
+          <input type="text" class="key" id="shaderArgs-1-key" placeholder="key">
+          <input type="text" class="value" id="shaderArgs-1-value" placeholder="value">
+        </div>
+        <div>
+          <input type="text" class="key" id="shaderArgs-2-key" placeholder="key">
+          <input type="text" class="value" id="shaderArgs-2-value" placeholder="value">
+        </div>
+        <div>
+          <input type="text" class="key" id="shaderArgs-3-key" placeholder="key">
+          <input type="text" class="value" id="shaderArgs-3-value" placeholder="value">
+        </div>
+        <div>
+          <input type="text" class="key" id="shaderArgs-4-key" placeholder="key">
+          <input type="text" class="value" id="shaderArgs-4-value" placeholder="value">
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2>Vertex Shader</h2>
+
+      <div class="box centered">
+        <textarea id="vs"></textarea>
+      </div>
+    </div>
+    <div>
+      <h2>Fragment Shader</h2>
+
+      <div class="box centered">
+        <textarea id="fs"></textarea>
+      </div>
+    </div>
+    <div>
+      <h2>CSS</h2>
+
+      <div class="box centered">
+        <textarea id="css"></textarea>
+      </div>
+    </div>
+    <div>
+      <h2>Info</h2>
+
+      <div class="box">
+        <p>
+          To share your shader settings with your friends, just copy the URL and
+          send it to them!
+        </p>
+
+        <p>
+          CSS-Shader is available on GitHub.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div id="rightCol">
+    <div id="playground"></div>
+  </div>
+</div>
+</body>
+</html>
