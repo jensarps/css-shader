@@ -100,3 +100,11 @@ Resumes the animation.
 #Browser Support
 
 Currently, only Chrome 25+ supports CSS Shaders.
+
+#Dependecies
+
+None. Well, an AMD loader should be available.
+
+#License
+
+MIT. For details, see the `LICENSE` file in the repository.
