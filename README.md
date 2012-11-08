@@ -10,6 +10,8 @@ In addition, it provides an animate() method, which executes the shaders in a lo
 
 #Demo
 
+![image](https://lh3.googleusercontent.com/-Z19srh52_hU/UJqc9hiH78I/AAAAAAAAALc/80d5V6OJVao/s889/css_shader_lines.pngg)
+
 For a demo, visit the [CSS-Shader Playground](http://jensarps.github.com/css-shader/playground/).
 
 #Usage
@@ -103,7 +105,7 @@ Currently, only Chrome 25+ supports CSS Shaders.
 
 #Dependecies
 
-None. Well, an AMD loader should be available.
+None.
 
 #License
 
