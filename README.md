@@ -103,7 +103,7 @@ Currently, only Chrome 25+ supports CSS Shaders.
 
 #Dependecies
 
-None. Well, an AMD loader should be available.
+None.
 
 #License
 
