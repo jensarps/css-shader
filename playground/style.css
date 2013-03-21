@@ -7,7 +7,6 @@ html, body, #wrapper {
 #wrapper {
   display: -webkit-box;
   -webkit-box-orient: horizontal;
-
   font-family: sans-serif;
   font-size: 12px;
 }
@@ -33,6 +32,9 @@ h1, h2 {
   text-shadow: 0px -1px 0px black;
   background: #606060;
   box-shadow: 0 1px 5px rgba(0,0,0,0.5);
+}
+a {
+  color: white;
 }
 
 .box {
