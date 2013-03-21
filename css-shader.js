@@ -162,9 +162,9 @@
     },
 
     /**
-     * Takes a node by reference or id and uses it to apply the shader to.
+     * Takes a node by reference or id and uses it to apply the shaders to.
      *
-     * @param {HTMLElement|String} nodeOrId
+     * @param {HTMLElement|String} nodeOrId A node reference or node id
      */
     setRenderTarget: function(nodeOrId){
       this.renderTarget = this._getNode(nodeOrId);
@@ -241,6 +241,5 @@
   };
 
   return CSSShader;
-
 
 }, this);
