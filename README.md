@@ -16,6 +16,8 @@ In addition, it provides an animate() method, which executes the shaders in a lo
 
 For a demo, visit the [CSS-Shader Playground](http://jensarps.github.com/css-shader/playground/).
 
+Note that CSS Shaders require Chrome 25, and CSS Shaders enabled in chrome://flags/.
+
 #API Reference
 
 There's an API reference over here: http://jensarps.github.com/css-shader/jsdoc/CSSShader.html
@@ -120,7 +122,7 @@ Resumes the animation.
 
 #Browser Support
 
-Currently, only Chrome 25+ supports CSS Shaders.
+Currently, only Chrome 25+ supports CSS Shaders. You need to enable CSS Shaders in chrome://flags/.
 
 #Dependecies
 
