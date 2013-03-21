@@ -14,6 +14,17 @@ In addition, it provides an animate() method, which executes the shaders in a lo
 
 For a demo, visit the [CSS-Shader Playground](http://jensarps.github.com/css-shader/playground/).
 
+#API Reference
+
+There's an API reference over here: http://jensarps.github.com/css-shader/jsdoc/CSSShader.html
+
+You can create a local version of the reference using a terminal. Go into the
+CSSShader directory and run the following command:
+
+```bash
+$ make doc
+```
+
 #Usage
 
 Including the css-shader.js file will add an `CSSShader` constructor to the global scope.
@@ -22,6 +33,7 @@ Alternatively, you can use an AMD loader such as RequireJS, or a CommonJS loader
 to load the module, and you will receive the constructor in your load callback
 (the constructor will then, of course, have whatever name you call it).
 
+You can then create a `CSSShader` instance:
 
 ~~~javascript
 var shader = new CSSShader();
