@@ -16,7 +16,12 @@ For a demo, visit the [CSS-Shader Playground](http://jensarps.github.com/css-sha
 
 #Usage
 
-Include the css-shader.js file in your page, and create a new instance:
+Including the css-shader.js file will add an `CSSShader` constructor to the global scope.
+
+Alternatively, you can use an AMD loader such as RequireJS, or a CommonJS loader
+to load the module, and you will receive the constructor in your load callback
+(the constructor will then, of course, have whatever name you call it).
+
 
 ~~~javascript
 var shader = new CSSShader();
